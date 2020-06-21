@@ -1,0 +1,20 @@
+body {
+    margin: 0 0;
+    font:"Trebuchet MS", Helvetica, sans-serif;
+}
+h1#logo {
+    color: red;
+    margin: 30px 30px;
+    font-size: 50px;
+
+}
+.signup-button {
+    background-color: red;
+    border: red;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 8px 15px;
+    color: white;
+    font-weight: 500;
+ 
+}
