@@ -1,6 +1,8 @@
 body {
     margin: 0 0;
     font:"Trebuchet MS", Helvetica, sans-serif;
+    background-color: lightpink;
+    color: white;
 }
 h1#logo {
     color: red;
@@ -16,5 +18,44 @@ h1#logo {
     padding: 8px 15px;
     color: white;
     font-weight: 500;
- 
+}
+.big-text {
+    font-size: 65px;
+}
+div#bigtext-1 {
+    width: 500px;
+}
+p {
+    font-size: 30px;
+}
+#smalltext-1 {
+    background-color: red;
+    width: 700px;
+}
+/*add all the center alligned items here*/
+div#bigtext-1, p#smalltext-1, .email-getstarted-box {
+    background-color: red;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.email-getstarted-box {
+    background-color: royalblue;
+    justify-content: center;
+}
+.email-getstarted-box input {
+    width: 500px;
+    height: 59px;
+    border: none;  
+    margin: 0; 
+}
+.email-getstarted-box button {
+    width: 300px;
+    height: 60px;
+    border: none;
+    margin: 0;
+    color: white;
+    background-color: red;
+    font-size: 18px;
 }
