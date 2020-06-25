@@ -4,10 +4,10 @@ body {
     background-color: lightpink;
     color: white;
 }
-h1#logo {
-    color: red;
-    margin: 30px 30px;
-    font-size: 50px;
+#logo {
+    width: 200px;
+    margin-top: -20px;
+    margin-left: 20px;
 
 }
 .signup-button {
@@ -18,44 +18,69 @@ h1#logo {
     padding: 8px 15px;
     color: white;
     font-weight: 500;
+    float: right;
+    margin-right: 37px;
+    margin-top: 10px;
 }
 .big-text {
     font-size: 65px;
 }
 div#bigtext-1 {
     width: 500px;
+    margin-top: 150px;
 }
 p {
     font-size: 30px;
 }
 #smalltext-1 {
-    background-color: red;
-    width: 700px;
+    width: 670px;
 }
+p#smalltext2 {
+    font-size: 23px;
+    margin-top: 8px;
+    margin-bottom: 150px;
+}
+#background1 {
+    background-image: url(background1.jpg);
+    height: 940px;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+  }
 /*add all the center alligned items here*/
-div#bigtext-1, p#smalltext-1, .email-getstarted-box {
-    background-color: red;
+div#bigtext-1, p#smalltext-1, .email-getstarted-box, p#smalltext2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 .email-getstarted-box {
-    background-color: royalblue;
     justify-content: center;
 }
 .email-getstarted-box input {
     width: 500px;
-    height: 59px;
+    height: 61px;
+    padding-top: 10px;
     border: none;  
     margin: 0; 
+    outline: none;
 }
+input[type=text]:focus {
+    outline: none;
+  }
 .email-getstarted-box button {
     width: 300px;
-    height: 60px;
+    height: 70px;
     border: none;
+    padding-bottom: 2px;
     margin: 0;
+    outline: none;
     color: white;
-    background-color: red;
-    font-size: 18px;
+    background-color: #f20f0f;
+    font-size: 30px;
 }
+.email-getstarted-box button:focus {
+    outline: none;
+  }
+  .email-getstarted-box button:hover {
+    background-color:#ff0000;
+  }
