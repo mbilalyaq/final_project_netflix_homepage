@@ -25,6 +25,9 @@ body {
 .big-text {
     font-size: 65px;
 }
+.big-text2 {
+    font-size: 55px;
+}
 div#bigtext-1 {
     width: 500px;
     margin-top: 150px;
@@ -35,19 +38,37 @@ p {
 #smalltext-1 {
     width: 670px;
 }
-p#smalltext2 {
+
+p.smalltext-2 {
     font-size: 23px;
     margin-top: 8px;
     margin-bottom: 150px;
 }
+p#smalltext-3 {
+    width: 500px;
+}
+.big-text2, p#smalltext-3{
+    margin-left: 100px;
+}
 #background1 {
     background-image: url(background1.jpg);
     height: 940px;
-    background-repeat: no-repeat, repeat;
+    background-repeat: no-repeat;
     padding: 15px;
-  }
+}
+
+.black-background {
+background-image: url(blackbackground.png);
+height: 450px;
+background-repeat: no-repeat;
+padding: 15px;
+}
+.grey-line {
+    background-color:#2e2e2e;
+    height: 8px;
+}
 /*add all the center alligned items here*/
-div#bigtext-1, p#smalltext-1, .email-getstarted-box, p#smalltext2 {
+div#bigtext-1, p#smalltext-1, .email-getstarted-box, p.smalltext-2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
