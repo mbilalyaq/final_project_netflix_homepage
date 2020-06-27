@@ -27,6 +27,17 @@ body {
 }
 .big-text2 {
     font-size: 55px;
+    width: 500px;
+}
+.big-text3 {
+    font-size: 55px;
+    width: 500px;
+    width: 550px;
+}
+.big-text4 {
+    font-size: 55px;
+    width: 500px;
+    width: 550px;
 }
 div#bigtext-1 {
     width: 500px;
@@ -45,11 +56,20 @@ p.smalltext-2 {
     margin-bottom: 150px;
 }
 p#smalltext-3 {
-    width: 500px;
+    width: 540px;
 }
-.big-text2, p#smalltext-3{
+
+p#smalltext-4 {
+    width: 540px;
+}
+
+p#smalltext-5 {
+    width: 540px;
+}
+.big-text2, p#smalltext-3 {
     margin-left: 100px;
 }
+
 #background1 {
     background-image: url(background1.jpg);
     height: 940px;
@@ -66,6 +86,39 @@ padding: 15px;
 .grey-line {
     background-color:#2e2e2e;
     height: 8px;
+}
+#tv-pic {   
+    float: right;
+    width: 550px;
+    margin-right: 170px;
+    margin-top: 50px;
+}
+#mobile-pic {
+    float: left;
+    height: 350px;
+    margin-left: 280px;
+    margin-top: 50px;
+}
+#mac-pic {   
+    float: right;
+    width: 550px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+#page-2-content {
+    float: left;
+    margin-top: 70px;
+    margin-left: 100px;
+}   
+#page-3-content {
+    float: right;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+#page-4-content {
+    float: left;
+    margin-top: 70px;
+    margin-left: 150px;
 }
 /*add all the center alligned items here*/
 div#bigtext-1, p#smalltext-1, .email-getstarted-box, p.smalltext-2 {
