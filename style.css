@@ -4,6 +4,32 @@ body {
     background-color: lightpink;
     color: white;
 }
+
+/*Page backgrounds*/
+#background1 {
+    background-image: url(background1.jpg);
+    height: 940px;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+.black-background {
+background-image: url(blackbackground.png);
+height: 450px;
+background-repeat: no-repeat;
+padding: 15px;
+}
+/*background for the question section*/
+.black-background1 {
+    background-image: url(blackbackground.png);
+    height: 750px;
+    background-repeat: no-repeat;
+    padding: 15px;
+    }
+.grey-line {
+    background-color:#2e2e2e;
+    height: 8px;
+}
+/*NEtfix logo*/
 #logo {
     width: 200px;
     margin-top: -20px;
@@ -22,8 +48,14 @@ body {
     margin-right: 37px;
     margin-top: 10px;
 }
+
+/*All the bi thext in the page*/
 .big-text {
     font-size: 65px;
+}
+div#bigtext-1 {
+    width: 500px;
+    margin-top: 150px;
 }
 .big-text2 {
     font-size: 55px;
@@ -31,18 +63,20 @@ body {
 }
 .big-text3 {
     font-size: 55px;
-    width: 500px;
     width: 550px;
 }
 .big-text4 {
     font-size: 55px;
-    width: 500px;
     width: 550px;
 }
-div#bigtext-1 {
-    width: 500px;
-    margin-top: 150px;
+.big-text5 {
+    font-size: 55px;
+    width: 670px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+/*All the small text in the page*/    
 p {
     font-size: 30px;
 }
@@ -66,27 +100,12 @@ p#smalltext-4 {
 p#smalltext-5 {
     width: 540px;
 }
+
+/*setting page 2 content*/
 .big-text2, p#smalltext-3 {
     margin-left: 100px;
 }
-
-#background1 {
-    background-image: url(background1.jpg);
-    height: 940px;
-    background-repeat: no-repeat;
-    padding: 15px;
-}
-
-.black-background {
-background-image: url(blackbackground.png);
-height: 450px;
-background-repeat: no-repeat;
-padding: 15px;
-}
-.grey-line {
-    background-color:#2e2e2e;
-    height: 8px;
-}
+/*All the pictures png/jpg in the page*/
 #tv-pic {   
     float: right;
     width: 550px;
@@ -105,10 +124,11 @@ padding: 15px;
     margin-right: 100px;
     margin-top: 10px;
 }
+/*grouping the bigtext and small text of each page */
 #page-2-content {
     float: left;
     margin-top: 70px;
-    margin-left: 100px;
+    margin-left: 100px; 
 }   
 #page-3-content {
     float: right;
@@ -127,6 +147,7 @@ div#bigtext-1, p#smalltext-1, .email-getstarted-box, p.smalltext-2 {
     margin-right: auto;
     text-align: center;
 }
+/*Email and get started box*/
 .email-getstarted-box {
     justify-content: center;
 }
@@ -140,7 +161,7 @@ div#bigtext-1, p#smalltext-1, .email-getstarted-box, p.smalltext-2 {
 }
 input[type=text]:focus {
     outline: none;
-  }
+}
 .email-getstarted-box button {
     width: 300px;
     height: 70px;
@@ -154,7 +175,80 @@ input[type=text]:focus {
 }
 .email-getstarted-box button:focus {
     outline: none;
-  }
-  .email-getstarted-box button:hover {
+}
+.email-getstarted-box button:hover {
     background-color:#ff0000;
-  }
+}
+
+/*List items in the question section*/
+ul.questionList {
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    margin-bottom: 50px;
+}
+ul.questionList > li {
+    background-color: #303030   ;
+    margin-bottom: 10px;
+    height: 50px;
+    list-style-type: none;
+    padding: 18px 20px 6px 30px;
+    margin-right: 10px;
+}
+.plusSign {
+    float: right;
+}
+ /*Footer of the page*/ 
+.lists {
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+div.lists ul li, footer li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+div.lists ul li a, footer li a{
+    color: #878787;
+    list-style-type: none;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+div.lists ul li a:hover, footer li a:hover{
+    text-decoration: underline;
+}
+ul#footerList {
+    display: block;
+    margin-left: 360px;
+    margin-top: 50px;
+}
+ul#footerList1 {
+    display: inline-block;   
+}
+ul#footerList1 li:last-child {
+    display: inline-block;   
+    color: #878787;
+    margin-top: 20px;
+}
+ul#footerList2 {
+    display: inline-block;
+    margin-left: 40px;
+}
+ul#footerList3 {
+    display: inline-block;
+    margin-left: 40px;
+}
+ul#footerList4 {
+    display: inline-block;
+    margin-left: 40px;
+}
+/*language seletector */
+ul#footerList1 li select:last-child {
+    display: inline-block;   
+    color: #878787;
+    margin-top: 20px;
+    background-color: black;
+    padding: 15px 25px;
+    font-size: 16px;
+}
